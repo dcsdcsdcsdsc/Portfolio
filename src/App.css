@@ -1,0 +1,567 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: black;
+    background-image: url();
+  }
+  .container{
+    /* width: 100%; */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .navbar{
+    width: 1200px;
+    height: 100px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 2%;
+    /* margin-top: 2rem;  */
+    z-index: 10;
+    backdrop-filter: blur(8px);
+  }
+  .hero-text {
+    color: indigo;
+    font-size: 20px;
+  }
+  
+  .hero-text span {
+    animation: animate 1s linear infinite;
+  }
+  
+  @keyframes animate {
+    0%, 100% {
+      color: indigo;
+    }
+    5% , 95% {
+      color: rgb(186, 186, 186);
+      text-shadow: 0 0 10px indigo;
+    }
+  }
+  
+  .hero-text span:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  
+  .hero-text span:nth-child(2) {
+    animation-delay: 0.3s;
+  }
+  
+  .hero-text span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  .hero-text span:nth-child(4) {
+    animation-delay: 0.5s;
+  }
+  
+  .hero-text span:nth-child(5) {
+    animation-delay: 0.6s;
+  }
+  
+  .hero-text span:nth-child(6) {
+    animation-delay: 0.7s;
+  }
+  
+  .hero-text span:nth-child(7) {
+    animation-delay: 0.8s;
+  }
+.logo1{
+    color: white;
+}
+  .w{
+    color: indigo;
+  }
+  .num{
+    color: indigo;
+  }
+  .group-list{
+    display: flex;
+    padding: 7px;
+    padding-right: 30px;
+    /* border: 2px solid indigo;
+    border-radius: 10px; */
+  }
+  .list-item{
+    margin-left: 2rem;  
+    font-size: larger;
+    color: rgb(186, 186, 186);
+    transition: all 1s;
+    text-transform: capitalize;
+  }
+.list-item:hover{
+  font-size: x-large; 
+  border-bottom: 3px solid indigo;
+  color: white;
+ }
+  li{
+    list-style: none;
+  }
+.intro{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.imgpage{
+  transform: translateX(200px)translateY(0);
+}
+.job{
+    width: 450px;
+    height: 60px;
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+.do{
+    width: 300px;
+    height: 50px;
+    color: white;
+}
+.contact{
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: 2px solid indigo;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 2rem;
+    font-size: large;
+}
+.contact_btn{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.contact_btn:active{
+  color: indigo;
+}
+.contact:active{
+  color: black;
+  font-size: large;
+  background-color: indigo;
+  border: 2px solid white;
+}
+.skill{
+    width: 100px;
+    height: 20px;
+    color: white;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+}
+
+.all{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.salom{
+     width: 200px;
+     border: 1px solid indigo;
+     transform: translateX(100px)translateY(-50px);
+}
+.language{
+  width: 200px;
+  height: 140px;
+  border: 2px solid indigo;
+  transform: translateX(-10px)translateY(-20px);
+}
+.tool{
+  width: 200px;
+  height: 140px;
+  border: 2px solid white;
+  transform: translateX(10px)translateY(150px);
+}
+.other{
+  width: 200px;
+  height: 140px;
+  border: 2px solid indigo;
+  transform: translateX(20px)translateY(-30px);
+}
+.lang{
+  color: white;
+  border-bottom: 2px solid grey;
+  padding: 5px;
+}
+.tool2{
+  color: white;
+  border-bottom: 2px solid grey;
+  padding: 5px;
+}
+.type3{
+  color: white;
+  border-bottom: 2px solid grey;
+  padding: 5px;
+}
+
+.tpe1{
+  color: gray;
+  padding: 20px;
+  margin-right: 5px;
+}
+.tpe2{
+  color: gray;
+  padding: 15px;
+  margin-right: 5px;
+}
+.tpe4{
+  color: gray;
+  padding: 20px;
+  margin-right: 5px;
+}
+.web{
+  width: 250px;
+  height: 50px;
+  color: white;
+  font-size: xx-large;
+  font-weight: 900;
+} 
+.scape{
+  width: 100px;
+  height: 100px;
+  border:2px solid indigo;
+  transform: translateX(20px)translateY(-40px);
+}
+.scape2{
+  width: 60px;
+  height: 70px;
+  border:2px solid white;
+  transform: translateX(-70px)translateY(-50px);
+}
+.scape3{
+  width: 60px;
+  height: 70px;
+  border:2px solid indigo;
+  transform: translateX(-160px)translateY(-190px);
+}
+.scape4{
+  width: 60px;
+  height: 70px;
+  border:2px solid white;
+  transform: translateX(-7px)translateY(-100px);
+}
+.scape5{
+  width: 100px;
+  height: 70px;
+  border:2px solid indigo;
+  transform: translateX(-160px)translateY(-150px);
+}
+.dots{
+  display: flex;
+  justify-content: space-evenly;
+}
+.salom3{
+  color: white;
+}
+.salomhr{
+  width: 200px;
+  border: 1px solid indigo;
+  transform: translateX(160px)translateY(-19px);
+}
+.aboutme{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+.wordsw{
+  width: 500px;
+  height: 200px;
+  color: grey;
+  font-weight: 900;
+  font-size: x-large;
+}
+.first{
+  transform: translateX(0)translateY(-100px);
+}
+.imgsec{
+  transform: translateX(-50px)translateY(-100px);
+}
+.salom5{
+  color: white;
+}
+.salomhr2{
+  width: 200px;
+  border: 1px solid indigo;
+  transform: translateX(145px)translateY(-19px);
+}
+.contactme{
+  width: 350px;
+  height: 0px;
+  color: grey;
+  margin-top: 2rem;
+}
+.navigate{
+  width: 250px;
+  height: 100px;
+  border: 2px solid indigo;
+  padding: 1rem;  
+}
+.contactsec{
+  display: flex;
+  
+  justify-content: space-between;
+}
+.white{
+  color: white;
+  
+}
+.gmail{
+  margin-top: 3px;
+}
+.nav__section__lik{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  
+}
+.nav__section__lik:hover{
+  border-bottom: 1px solid indigo;
+}
+::selection{
+  color: aqua;
+}
+.fynalhr{
+  width: 1200px;
+  border: 1px solid indigo;
+  margin-top: 2rem;
+}
+.end-div{
+   width: 1000px;
+   height: 150px;
+   margin: 10px auto;
+   display: flex;
+}
+.nav__section__link{
+  list-style: none;
+  text-decoration: none;
+  color: grey;
+  margin-top: 10px;
+}
+.navigate2{
+  margin-top: 1rem;
+}
+.finally{
+  color: grey;
+  margin-top: 1rem;
+}
+.whose{
+  transform: translateX(400px)translateY(30px);
+  padding-bottom: 1rem;
+}
+.when{
+  color: grey;
+}
+@media (max-width:1030px) {
+  .job{
+    transform: translateX(50px)translateY(0);
+   }
+   .do{
+    transform: translateX(50px)translateY(0);
+   }
+   .contact{
+    transform: translateX(50px)translateY(15px);
+   }
+  .black{
+    transform: translateX(-100px)translateY(0);
+  }
+  .skill{
+    transform: translateX(50px)translateY(0);
+   }
+   .salom{
+    transform: translateX(150px)translateY(-50px);
+   }
+  .scapes{
+    transform: translateX(110px)translateY(10px);
+    } 
+    .all{
+      transform: translateX(90px)translateY(0);
+     }
+     .salom3{
+      transform: translateX(50px)translateY(0);
+     }
+     .salomhr{
+      transform: translateX(212px)translateY(-15px);
+    }
+    .wordsw{
+      transform: translateX(50px)translateY(0);
+     }
+     .salom5{
+      transform: translateX(50px)translateY(0);
+     }
+     .salomhr2{
+      transform: translateX(195px)translateY(-18px);
+     }
+     .contactme{
+      transform: translateX(50px)translateY(0);
+     }
+     .navigate{
+      transform: translateX(-70px)translateY(0);
+     }
+     .cola{
+      transform: translateX(50px)translateY(0);
+     }
+}
+@media (max-width:932px) {
+   .group-list{
+    display: none;
+   }
+   .job{
+    transform: translateX(50px)translateY(0);
+   }
+   .do{
+    transform: translateX(50px)translateY(0);
+   }
+   .contact{
+    transform: translateX(50px)translateY(15px);
+   }
+   .black{
+    transform: translateX(-130px)translateY(0);
+   }
+   .navbar{
+     width: 932px;
+   }
+   .skill{
+    transform: translateX(50px)translateY(0);
+   }
+   .salom{
+    transform: translateX(150px)translateY(-50px);
+   }
+   .scapes{
+   transform: translateX(130px)translateY(10px);
+   } 
+   .all{
+    transform: translateX(9px)translateY(0);
+   }
+   .language{
+    transform: translateX(100px)translateY(-40px);
+   }
+   .salom3{
+    transform: translateX(50px)translateY(0);
+   }
+   .salomhr{
+     transform: translateX(212px)translateY(-15px);
+   }
+   .wordsw{
+    transform: translateX(50px)translateY(0);
+   }
+   .imgsec{
+    transform: translateX(0px)translateY(-100px);
+   }
+   .salom5{
+    transform: translateX(50px)translateY(0);
+   }
+   .salomhr2{
+    transform: translateX(195px)translateY(-18px);
+   }
+   .contactme{
+    transform: translateX(50px)translateY(0);
+   }
+   .cola{
+    transform: translateX(50px)translateY(0);
+   }
+   
+}
+@media (max-width:868px) {
+  .scapes{
+    transform: translateX(130px)translateY(10px);
+   }
+  .other{
+    transform: translateX(-20px)translateY(-10px);
+  }
+  .black{
+    transform: translateX(-250px)translateY(0 );
+  }
+ 
+}
+@media (max-width:796px) {
+  .scapes{
+    transform: translateX(150px)translateY(10px);
+   }
+   .language{
+    transform: translateX(150px)translateY(-20px);
+   }
+   .other{
+    transform: translateX(-10px)translateY(-10px);
+  }
+}
+@media (max-width:690px) {
+  .all{
+    transform: translateX(100px)translateY(0);
+  }
+ .scapes{
+     transform: translateX(200px)translateY(10px); 
+ }
+ .navigate{
+  transform: translateX(100px)translateY(0);
+ }
+}
+@media (max-width:634px) {
+  .scapes{
+    transform: translateX(250px)translateY(10px);
+  }
+  .all{
+    transform: translateX(200px)translateY(0);
+  }
+  .imgsec{
+    transform: translateX(95px)translateY(-100px);
+  }
+  .navigate{
+    transform: translateX(250px)translateY(0);
+  }
+}
+@media (max-width:532px) {
+  .black{
+    transform: translateX(-150px)translateY(0);
+  }
+  .scapes{
+    transform: translateX(300px)translateY(15px);
+  }
+  .navigate{
+    transform: translateX(300px)translateY(0);
+  }
+}
+@media (max-width:430px) {
+  .all{
+    transform: translateX(290px)translateY(0);
+  }
+  .scapes{
+  transform: translateX(350px)translateY(15px);
+  }
+  .navigate{
+    transform: translateX(350px)translateY(0);
+  }
+}
+@media (max-width:350px) {
+  .scapes{
+    transform: translateX(370px)translateY(15px);
+    }
+    .navigate{
+      transform: translateX(550px)translateY(0);
+    }
+    .contactme{
+      transform: translateX(50px)translateY(-20px);
+      width: 350px;
+      height: 1px;
+    }
+}
+@media (max-width:320px) {
+    .all{
+      transform: translateX(350px)translateY(0);
+    }
+    .scapes{
+      transform: translateX(400px)translateY(15px);
+      }
+      .united{
+        transform: translateX(0)translateY(-70px);
+      }
+      .contactme{
+        transform: translateX(100px)translateY(-80px);
+      }
+     .navigate{
+      transform: translateX(550px)translateY(-50px);
+     }
+}
